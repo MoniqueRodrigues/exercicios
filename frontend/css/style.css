@@ -39,11 +39,81 @@
 }
 
 .img-lupa {
-  margin-left: 350px;
+  margin-left: 325px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
   bottom: 40px;
+}
+
+.info-cards {
+  background-color: #F2F2F2;
+}
+
+.info-cards .product-list {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  margin-left: 13px;
+}
+
+.info-cards .product-list .info-bold {
+  font-weight: bold;
+}
+
+.info-cards .card {
+  color: #3b3b3b;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 1px 1px #F2F2F4;
+          box-shadow: 1px 1px 1px 1px #F2F2F4;
+}
+
+.info-cards .card .card-body .card-title {
+  font-size: 13px;
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+.info-cards .card .card-body .card-value-one {
+  color: #757575;
+  font-size: 14px;
+  text-decoration: line-through;
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+.info-cards .card .card-body .card-value-two {
+  color: #757575;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 15px;
+}
+
+.info-cards .card .card-body .card-two {
+  color: #22b14c;
+  font-weight: bolder;
+}
+
+.info-cards .card .card-body .card-text {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 14px;
+}
+
+.info-cards .card .card-body .card-bold {
+  color: #2189E0;
+}
+
+.info-cards .card .card-body .card-link {
+  color: #22b14c;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 13px;
+  font-weight: bold;
+  border: solid 2px;
+  border-radius: 5px;
+  padding-right: 42px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

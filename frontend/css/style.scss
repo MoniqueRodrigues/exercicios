@@ -1,4 +1,6 @@
-
+// body{
+//     font-family: 'Montserrat', sans-serif;
+// }
 
  #logo{
     width:25%;
@@ -44,12 +46,98 @@
     text-align: left;
 }
 .img-lupa{
-    margin-left: 350px;
+    margin-left: 325px;
     display: flex;
     position: relative;
     bottom: 40px;
+    
    
 }
+
+.info-cards{
+    background-color:#F2F2F2;
+    .product-list{
+        font-family: 'Montserrat', 'sans-serif';
+        font-size:18px;
+        letter-spacing: 1px;
+        padding-top: 20px;
+        margin-left: 13px;
+      
+
+    .info-bold{
+        font-weight: bold;
+    
+    }
+    
+
+    
+    
+  
+    
+}
+
+.card{
+    color: #3b3b3b;
+    margin-top: 15px;
+    border: none;
+    border-radius:6px;
+    box-shadow:1px 1px 1px 1px#F2F2F4;
+
+    .card-body{
+        .card-title{
+            font-size: 13px;
+            font-family: 'Montserrat', 'sans-serif';
+        }
+        .card-value-one{
+            color: #757575;
+            font-size: 14px;
+            text-decoration: line-through;
+            font-family: 'Montserrat', 'sans-serif';
+            
+           
+        }
+        .card-value-two{
+            color:#757575;
+            font-family: 'Montserrat', 'sans-serif';
+            font-size: 15px;
+            //font-weight: bold;
+           
+
+
+        }
+        .card-two{
+            color: #22b14c;
+            font-weight: bolder;
+
+        }
+        .card-text{
+            font-family: 'Montserrat', 'sans-serif';
+            font-size: 14px;
+
+        }
+        .card-bold{
+            color: #2189E0;
+        }
+        .card-link{
+            color: #22b14c;
+            font-family: 'Montserrat', 'sans-serif';
+            font-size: 13px;
+            font-weight: bold;
+            border: solid 2px;
+            border-radius: 5px;
+            padding-right: 42px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        
+
+    }
+   
+ }
+}
+
+
 
 
 
